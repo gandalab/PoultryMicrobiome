@@ -167,7 +167,7 @@ adjusted_p_m8 <- p.adjust(p_values8, method = "BH")
 print(adjusted_p_m8)
 round(adjusted_p_m8, 2)
 
-m9 <- lm(FCR_TOTAL.PEN ~ TRT, data = performance_data1)
+m9 <- lm(FCR_TOTAL.PEN ~ TRT, data = performance_data)
 summary(m9)
 
 # Extract p-values
