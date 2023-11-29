@@ -162,5 +162,3 @@ grep("Bacillus", ps@tax_table[,"Genus"])
 bac <- subset_taxa(ps, Genus == "Bacillus")
 bac@tax_table
 unique(ps@tax_table[,"Genus"])
-
-
